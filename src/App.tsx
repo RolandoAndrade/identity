@@ -5,7 +5,6 @@ import { useState } from 'react';
 function App() {
 
   const [image, setImage] = useState<string>("")
-  const [name, setName] = useState<string>("")
 
   const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setImage(event.target.value)
@@ -46,8 +45,8 @@ function App() {
 
   )
 }
-
-function LockIcon(props) {
+type LockIconProps = React.ComponentProps<'svg'>;
+function LockIcon(props: LockIconProps) {
   return (
     <svg
       {...props}
