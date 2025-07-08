@@ -2,6 +2,12 @@
 
 Identity es un proyecto de inteligencia artificial que implementa un sistema de desbloqueo facial. Dada la imagen de una persona, el modelo es capaz de identificar quién es y, si corresponde, desbloquear el dispositivo. Este enfoque busca simplificar el acceso a dispositivos, evitando métodos tradicionales como pines o patrones.
 
+
+
+https://github.com/user-attachments/assets/38c5540e-3b8e-451a-908f-366ab19fe28a
+
+
+
 ## Descripción General
 - **Parte teórica:** Consulta el archivo `Problemas hiperdimensionales.pdf` para una explicación detallada de los fundamentos teóricos, incluyendo SVMs, clasificación multiclase, kernels, visión por computadora, PCA y técnicas de tuning como GridSearch y CrossValidation.
 - **Parte práctica:** El desarrollo y la implementación del modelo se encuentran en el notebook `Identity.ipynb`.
